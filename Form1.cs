@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
+
 {
     public partial class Form1 : Form
     {
@@ -124,6 +125,12 @@ namespace WindowsFormsApplication1
         {
             n1.ejercicio13(n2);
         }
+
+        private void verifPrimoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = string.Concat(n1.VerifPrimo());
+        }
+
         private void cargarToolStripMenuItem3_Click(object sender, EventArgs e)
         {
             n4.cargar(int.Parse(textBox1.Text));

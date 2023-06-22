@@ -66,6 +66,10 @@ namespace WindowsFormsApplication1
         } 
         public bool VerifPrimo()
         {
+            if (n <=1)
+            {
+                return false;
+            }
             int i = n / 2;
             while (i > 1)
             {

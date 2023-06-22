@@ -58,6 +58,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.verifPrimoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,7 +87,8 @@
             this.ejercicio7ToolStripMenuItem,
             this.ejercicio11ToolStripMenuItem1,
             this.ejercicio12ToolStripMenuItem1,
-            this.ejercicio13ToolStripMenuItem1});
+            this.ejercicio13ToolStripMenuItem1,
+            this.verifPrimoToolStripMenuItem});
             this.menu1ToolStripMenuItem.Name = "menu1ToolStripMenuItem";
             this.menu1ToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.menu1ToolStripMenuItem.Text = "Menu1";
@@ -303,6 +305,13 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Salida";
             // 
+            // verifPrimoToolStripMenuItem
+            // 
+            this.verifPrimoToolStripMenuItem.Name = "verifPrimoToolStripMenuItem";
+            this.verifPrimoToolStripMenuItem.Size = new System.Drawing.Size(408, 22);
+            this.verifPrimoToolStripMenuItem.Text = "Verif primo";
+            this.verifPrimoToolStripMenuItem.Click += new System.EventHandler(this.verifPrimoToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -356,6 +365,7 @@
         private System.Windows.Forms.ToolStripMenuItem ejercicio11ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem ejercicio12ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem ejercicio13ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem verifPrimoToolStripMenuItem;
     }
 }
 
